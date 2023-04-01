@@ -45,22 +45,30 @@ a {
 }
 
 img {
-    width:10%;
+    width:5%;
     padding: 3px 3px;
     border-radius: 100px;
-    margin-left: 60px;
 }
 
 #pic1:hover{
     background-color: blue; 
+    width: 25px;
+    
     
 }
 
 #pic2:hover {
     background-color: yellow;  
+    width: 25px;
     
 }
 
 #pic3:hover{ 
-    background-color: red;       
+    background-color: red; 
+    width: 25px;
+     
+}  
+
+nav{
+  text-align: center;
 }

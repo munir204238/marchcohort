@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(189, 150, 100);
+}
+
+div {
+background-color: rgb(97, 103, 110);
+width: 30%;
+margin: 20px auto;
+margin-top: 200px;
+}
+
+.img1 {
+width: 100%;
+border-radius: 80%;
+margin-left: auto;
+
+}
+
+#par1 {
+    text-align: center;
+    color: blue;
+    font-size:larger;
+    margin: auto;
+}
+
+#par2 {
+    text-align: center;
+    color: rgb(7, 226, 98);
+    font-size:larger;
+    font: 1em sans-serif;
+    margin: auto;
+}
+
+#par3 {
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    color: rgb(49, 10, 221);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+
+}
+
+img {
+    width:10%;
+    padding: 3px 3px;
+    border-radius: 100px;
+    margin-left: 60px;
+}
+
+#pic1:hover{
+    background-color: blue; 
+    
+}
+
+#pic2:hover {
+    background-color: yellow;  
+    
+}
+
+#pic3:hover{ 
+    background-color: red;       
+}

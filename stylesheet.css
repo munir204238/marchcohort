@@ -1,4 +1,9 @@
 body {
     background-color: rgb(115, 248, 110);
+}
 
+.header {
+    font: 2em sans-serif;
+    color: rgb(67, 11, 197); 
+    border-radius: 5cm;
 }

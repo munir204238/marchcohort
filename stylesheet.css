@@ -1,9 +1,303 @@
 body {
-    background-color: rgb(115, 248, 110);
+    background-color:beige;
+   object-fit: cover;   
+}
+#navbar{
+    float:right;
+    display:flex;
+    flex-wrap:nowrap;
+    list-style-type: none;
+    margin: 0%; 
 }
 
-.header {
-    font: 2em sans-serif;
-    color: rgb(67, 11, 197); 
-    border-radius: 5cm;
+#gray{
+    color:red;
+    margin: 0;
+    padding: 30px;
+    font-size: larger; 
+}
+
+#black{
+color:beige;
+}
+
+h1{
+    color: rgb(28, 25,212); 
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin: 0%; 
+}
+
+#body{
+    margin: 0%;
+    border: solid beige;
+    text-align: center;
+}
+
+#p1{
+    color: white;
+    font:sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    
+}
+
+p{
+    border:grey solid 20px;
+    background-color: grey;
+    margin: 0%;
+    padding: 20px;
+    
+}
+
+h3 {
+    color: rgb(28, 25,212);
+    text-align: center;
+    text-decoration-line:none;
+    margin: 0%;
+    font-size: 40px;   
+}
+
+.list1{
+    color: rgb(241, 18, 174);
+    margin: 0%;
+    list-style-type:none;
+    font-size: 25px;
+}
+
+.list2{
+    color: rgb(233, 248, 15);
+    margin: 0%;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.list3{
+    color: rgb(9, 243, 48);
+    margin: 0%;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.list4{
+    color: rgb(194, 8, 8);
+    margin: 0%;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.list5{
+    color: rgb(16, 198, 243);
+    margin: 0%;
+    list-style-type: none;
+    font-size: 25px;
+}
+#body{
+    background-color:rgb(5, 7, 7);
+    margin-left:20%;
+    text-align:center;
+    width: 70%; 
+    border: black solid;  
+}
+
+ol{
+    font-size: large;
+}
+
+.meth1{
+    color: rgb(243, 16, 16);
+    font-size: 25px; 
+}
+
+.meth2{
+    color: rgb(105, 98, 98);
+    font-size: 25px;
+}
+
+img {
+    height: 540px;
+    width: 260px;
+    float:left;
+    flex-wrap:nowrap;
+    display:flex;
+    border: solid black;
+}
+
+#white{
+ flex-wrap:wrap;
+ display: inline;
+ justify-content: center;
+ list-style-type: none;
+ margin: 0%; 
+ padding: 15px;
+ color: beige;
+ font-size: 20px;
+}
+
+#white2{
+    border: gray solid;
+    padding: 100px;
+    background-color: gray;
+    margin: 0%;
+    text-align: center;
+}
+
+@media only screen and (max-width:420px) {
+    h1{
+      color:rgb(10, 10, 10);
+      font-size: 20px;
+    }
+    
+    #main{
+    background-color: white;
+    }
+    
+    h3{
+      color: rgb(6, 6, 7);
+      font-size: 20px;
+    }
+    
+    #gray{
+      color:rgb(2, 2, 2);
+      font-size: small;
+      border: 3px;
+    }
+    
+    img{
+      width: 100px;
+      height: 140px;
+      padding: 5px; 
+    }
+    
+    h2{
+      color:red;
+      font-size: 20px;
+    }
+    
+    #white2{
+      font-size: 15px;
+    }
+    
+    }
+    
+@media only screen and (max-width:768px) {
+    #black{
+     color:beige;
+     margin: 0%;
+    }
+       
+    #gray{
+    color:rgb(47, 0, 255);
+    padding: 5px;
+    font-size: 15px; 
+    }
+
+      h1{
+        color:rgb(15, 14, 14);
+        font-size: 15px;
+      }
+      #p1{
+        color: white;
+        font:sans-serif;
+        font-size: 8px;
+        text-align: center;
+        
+    }
+    p{
+        border:grey solid ;
+        background-color: grey;
+        margin:0%;
+        
+    }
+    h3 {
+        color: rgb(249, 249, 250);
+        text-align: center;
+        margin: 0%;
+        font-size: 30px;   
+    }
+    
+    .list1{
+        color: rgb(62, 9, 253);
+        margin: 0%;
+        list-style-type:none;
+        font-size: 15px;
+    }
+    
+    .list2{
+        color: rgb(203, 236, 15);
+        margin: 0%;
+        list-style-type: none;
+        font-size: 15px;
+    }
+    
+    .list3{
+        color: rgb(9, 202, 41);
+        margin: 0%;
+        list-style-type: none;
+        font-size: 15px;
+    }
+    
+    .list4{
+        color: rgb(194, 8, 8);
+        margin: 0%;
+        list-style-type: none;
+        font-size: 15px;
+    }
+    
+    .list5{
+        color: rgb(16, 198, 243);
+        margin: 0%;
+        list-style-type: none;
+        font-size: 15px;
+    }
+    #body{
+        background-color:rgb(5, 7, 7);
+        margin-left:20%;
+        text-align:center;
+        width: 70%; 
+        border: black solid;  
+    }
+    
+    ol{
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    .meth1{
+        color: rgb(16, 243, 118);
+        font-size: 15px; 
+    }
+    
+    .meth2{
+        color: rgb(220, 243, 9);
+        font-size: 15px;
+    }
+    
+    img {
+        height: 100px;
+        width: 60px;
+        float:left;
+        flex-wrap:nowrap;
+        display:flex;
+        border: solid black;
+      }
+
+    #white{
+       flex-wrap:wrap;
+       display: inline;
+       justify-content: center;
+       list-style-type: none;
+       margin: 0%; 
+       padding: 10px;
+       color: beige;
+       font-size: 10px;
+    }
+       
+    #white2{
+        border: gray solid;
+        padding: 10px;
+        background-color: gray;
+        margin: 0%;
+        text-align: center;
+     }
 }

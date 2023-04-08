@@ -1,0 +1,210 @@
+body{
+  background-color:rgb(75, 74, 74);
+  text-align: center;
+  object-fit:contain;
+}
+
+h1{
+  color: rgb(246, 246, 248); 
+  background-color:rgb(75, 74, 74);
+  font-style: italic;
+  justify-self: center;
+  padding: 5px;
+  
+}
+
+#main{
+background-color:gray;
+}
+
+#black{
+  color:rgb(75, 74, 74);
+}
+
+#gray{
+  border-color:rgb(75, 74, 74);
+  background-color:rgb(75, 74, 74);
+  padding: 10px;
+}
+
+h3{
+  border: gray solid;
+  color:black;
+  background-color:gray;
+  justify-content: center;
+  font-size: 50px;
+}
+#navbar{
+  float:right;
+  display:flex;
+  flex-wrap:nowrap;
+  list-style-type: none;
+  margin: 0%; 
+}
+
+li{
+  color:white;
+  border-style: solid;
+  border-color: black;
+  font-size:x-large;
+}
+
+li:hover{
+  color: rgb(252, 23, 7);
+  background-color: rgb(10, 6, 235); 
+  
+}
+
+#sports{
+  width: 80%;
+  height: 80%;
+  background-color:black;
+  margin:auto;       
+}
+
+img{
+  width: 250px;
+  height: 240px;
+  padding: 10px;   
+}
+
+.footer {
+  background-color:black;
+  margin-bottom:0%;
+}
+
+ul li {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom:0%;
+}
+
+.match-name {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.match-time {
+  font-weight: bold;
+  font-size: 18px;
+  color:white;
+  text-align: center;
+}
+
+#header1{
+  color: rgb(54, 11, 247);
+  font-size: xx-large;
+  text-align: center;
+}
+
+a:hover{
+  list-style-type: none;
+
+}
+
+#navbar2 {
+  display: flex;
+  justify-content:center;
+}
+
+.others {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#white {
+  color:black;
+  text-decoration: none;
+  margin-right:0%;
+}
+
+#click {
+  border: solid;
+  border-color: black;
+  padding: 20PX;
+}
+
+#white2{
+  color:white;
+  padding: 10px;
+}
+
+@media only screen and (max-width:420px) {
+h1{
+  color:red;
+  font-size: 30px;
+}
+
+#main{
+background-color: white;
+}
+
+h3{
+  color: rgb(6, 7, 7);
+  font-size: 20px;
+}
+
+#gray{
+  color:blue;
+  font-size: small;
+  border: 5px;
+}
+
+img{
+  width: 100px;
+  height: 140px;
+  padding: 5px; 
+}
+
+h2{
+  color:red;
+  font-size: 20px;
+}
+
+#white2{
+  font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width:768px) {
+  h1{
+    color:red;
+    font-size: 30px;
+  }
+  
+  #main{
+  background-color: white;
+  }
+  
+  h3{
+    color: rgb(6, 7, 7);
+    font-size: 20px;
+  }
+  
+  #gray{
+    color:blue;
+    font-size: small;
+    border: 5px;
+  }
+  
+  img{
+    width: 100px;
+    height: 140px;
+    padding: 5px; 
+  }
+  
+  h2{
+    color:red;
+    font-size: 20px;
+  }
+  
+  #white2{
+    font-size: 15px;
+  }
+  
+  }
